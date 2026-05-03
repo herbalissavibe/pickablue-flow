@@ -1,8 +1,9 @@
+/** Белая волна; прозрачность над кривой должна показывать слой видео героя (волна внутри hero). */
 export function HeroWaveDivider() {
   return (
-    <div className="pointer-events-none relative z-10 -mb-px w-full leading-none text-white">
+    <div className="pointer-events-none relative z-20 mt-auto w-full shrink-0 leading-none text-white">
       <svg
-        className="block h-12 w-full sm:h-16 md:h-24"
+        className="block h-16 w-full sm:h-24 md:h-28"
         viewBox="0 0 1440 120"
         preserveAspectRatio="none"
         aria-hidden
