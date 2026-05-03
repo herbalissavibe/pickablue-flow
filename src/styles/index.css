@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+@theme {
+  --color-flow-blue: #009fe3;
+  --color-flow-green: #39b54a;
+  --color-flow-pink: #e6007e;
+  --color-flow-orange: #f7941d;
+
+  --color-brand-primary: #009ee3;
+  --color-brand-primary-alt: #0089d0;
+  --color-brand-heading-soft: #59b2d1;
+  --color-surface-deep: #004b87;
+  --color-teal-mid: #00a3c1;
+  --color-placeholder-amber: #ffd700;
+  --color-text-body: #4d4d4d;
+  --color-legal-bar: #000000;
+
+  --font-sans: "Roboto", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-white font-sans text-text-body antialiased;
+  }
+
+  :focus-visible {
+    @apply outline-2 outline-offset-2 outline-brand-primary;
+  }
+}
