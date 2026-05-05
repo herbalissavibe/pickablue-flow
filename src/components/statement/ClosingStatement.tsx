@@ -6,13 +6,18 @@ export function ClosingStatement() {
   return (
     <Section
       id="statement"
-      className="relative overflow-hidden bg-gradient-to-b from-white via-white to-brand-heading-soft/15 py-20 sm:py-28"
+      className="relative overflow-hidden bg-white py-20 sm:py-28"
+      style={{
+        backgroundImage: "url('/images/bg_hell.png')",
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+      }}
     >
       <div
-        className="pointer-events-none absolute inset-x-0 bottom-0 h-1/2 opacity-40"
+        className="pointer-events-none absolute inset-0"
         style={{
           backgroundImage:
-            "radial-gradient(circle at 50% 100%, #009ee3 0, transparent 55%)",
+            "linear-gradient(to bottom, rgba(255, 255, 255, 0.55) 0%, rgba(255, 255, 255, 0.25) 55%, rgba(255, 255, 255, 0.1) 100%)",
         }}
         aria-hidden
       />

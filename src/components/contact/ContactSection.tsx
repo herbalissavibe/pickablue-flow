@@ -9,14 +9,19 @@ export function ContactSection() {
     <Section
       id="kontakt"
       labelledBy="contact-title"
-      className="relative overflow-hidden bg-gradient-to-b from-[#003366] to-[#001a33] py-16 text-white sm:py-20 lg:py-24"
+      className="relative overflow-hidden bg-[#001a33] py-16 text-white sm:py-20 lg:py-24"
+      style={{
+        backgroundImage: "url('/images/bg_footer.png')",
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+      }}
     >
       <div
-        className="pointer-events-none absolute inset-0 opacity-25"
+        className="pointer-events-none absolute inset-0"
         aria-hidden
         style={{
           backgroundImage:
-            "radial-gradient(circle at 30% 20%, #009ee3 0, transparent 50%), radial-gradient(circle at 80% 60%, #00a3c1 0, transparent 45%)",
+            "linear-gradient(to bottom, rgba(1, 51, 135, 0.8) 0%, rgba(1, 51, 135, 0.55) 55%, rgba(1, 51, 135, 0.35) 100%)",
         }}
       />
       <Container className="relative">
