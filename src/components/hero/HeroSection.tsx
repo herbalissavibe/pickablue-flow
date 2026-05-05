@@ -22,7 +22,7 @@ export function HeroSection() {
         </div>
         <div className="pointer-events-none absolute inset-0 z-10 flex items-center justify-center">
           <img
-            src="/images/flow-logo.png"
+            src="/images/flow-logo.svg"
             alt="FLOW Logo"
             className="h-auto w-[min(62vw,686px)] opacity-95"
           />

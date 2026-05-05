@@ -12,13 +12,13 @@
 
 - [x] `PROJECT_OVERVIEW.md`, `TECH_STACK.md`, `ARCHITECTURE.md`, `CURRENT_STATUS.md`.
 - [x] Сборка и dev: Vite 6, React 19, TS, Tailwind v4, alias `@/`, Motion, Radix Dialog.
-- [x] **Hero:** 800px, локальное видео `/public/video/Flow_Animation_Comp_sRGB_H.265_compressed.mp4`, белый логотип pickablue сверху слева и цветной FLOW-логотип по центру.
+- [x] **Hero:** 800px, локальное видео `/public/video/Flow_Animation_Comp_sRGB_H.265_compressed.mp4`, белый логотип pickablue сверху слева и цветной FLOW-логотип по центру (SVG).
 - [x] **Hero → intro:** SVG-волна **внутри** того же flex-контейнера (`mt-auto`), прозрачная часть над кривой показывает **видео**; убрана отдельная тёмно-синяя полоса под волной.
-- [x] **Типографика:** глобальный шрифт переключен с Roboto на Ubuntu (`index.html`, `src/styles/index.css`).
+- [x] **Типографика:** глобальный шрифт переключен с Roboto на Ubuntu (`index.html`, `src/styles/index.css`); базовый `html` размер увеличен до `20px`.
 - [x] **Сетка/ширина:** унифицирована максимальная ширина контента `1400px` через `Container`; секции и футер приведены к одной левой/правой кромке.
 - [x] Intro: подзаголовок как H1 серым, чипы после абзаца с «Content-Aufwand», 2-й и 4-й чип со сдвигом, блок слева.
 - [x] Секция кейсов: превью-видео, градиент + play + текст, aspect 8/9, уменьшенный gap, модалка с motion и закрытием.
-- [x] **App Showcase:** фон заменён на локальное изображение `public/images/app-showcase-bg.png`; добавлен вертикальный градиент `#2183b8` сверху вниз (сильнее сверху).
+- [x] **App Showcase:** фон заменён на локальное изображение `public/images/app-showcase-bg.png`; добавлен вертикальный градиент `#2183b8` сверху вниз (сильнее сверху); секция переведена в одно-колоночный порядок (текст → изображение) и подключён SVG-мокап телефона `public/images/app-showcase-phone.svg`.
 - [x] GitHub: `origin` → `pickablue-flow`, ветка `main`.
 
 ## В работе
@@ -28,7 +28,7 @@
 ## Следующие задачи
 
 1. **Контент:** `src/content/de.ts` по RTF/PDF; Datacycle без lorem.
-2. **Медиа:** проверить финальные прозрачные версии бренд-лого (часть входящих `.png` фактически в JPEG без alpha).
+2. **Медиа:** финальная чистка неиспользуемых PNG после перехода на SVG-версии в Hero/App Showcase.
 3. **Визуал:** Figma-сетка, phone mockup, цвета.
 4. **Полировка:** a11y, Lighthouse, Open Graph, ссылки в футере.
 
