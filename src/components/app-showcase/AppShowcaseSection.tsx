@@ -34,7 +34,7 @@ export function AppShowcaseSection() {
       ref={sectionRef}
       id="app"
       labelledBy="app-title"
-      className="relative min-h-dvh overflow-hidden bg-[#002b49] pb-0 pt-16 text-white sm:pb-0 sm:pt-20 lg:pb-0 lg:pt-24"
+      className="relative min-h-[56dvh] overflow-hidden bg-[#002b49] pb-0 pt-16 text-white sm:min-h-dvh sm:pb-0 sm:pt-20 lg:pb-0 lg:pt-24"
       onPointerMove={handlePointerMove}
       onPointerLeave={handlePointerLeave}
     >

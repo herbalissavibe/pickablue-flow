@@ -13,7 +13,10 @@ export function ProcessPillsAnimated() {
   const reduced = usePrefersReducedMotion();
 
   return (
-    <div className="mt-8 flex max-w-[1400px] flex-row flex-wrap items-start justify-start gap-0 sm:mt-10" aria-label="Workflow: select, transform, review, publish">
+    <div
+      className="mt-8 flex max-w-[1400px] flex-nowrap items-start justify-start gap-0 sm:mt-10 sm:flex-wrap"
+      aria-label="Workflow: select, transform, review, publish"
+    >
       {steps.map((step, index) => (
         <motion.span
           key={step.label}
@@ -38,8 +41,8 @@ export function ProcessPillsAnimated() {
                 }
           }
           className={cn(
-            "relative inline-flex shrink-0 rounded-full px-5 py-2 text-sm font-semibold uppercase tracking-wide text-white shadow-md sm:px-6 sm:text-base",
-            index > 0 && "-ml-3 sm:-ml-4",
+            "relative inline-flex shrink-0 rounded-full px-4 py-[9px] text-[14px] font-semibold uppercase tracking-wide text-white shadow-md sm:px-6 sm:py-2 sm:text-base",
+            index > 0 && "-ml-2 sm:-ml-4",
             (index === 1 || index === 3) && "translate-y-1/2",
             step.className,
           )}
