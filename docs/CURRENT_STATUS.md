@@ -22,7 +22,7 @@
 - [x] **Секции/заголовки:** уменьшены лишние вертикальные разрывы перед `Content Journey` и `Reasons`; заголовки `Let it flow` и `Drei Gründe` приведены к стилю hero-headline (в `Let it flow` — белый).
 - [x] **Reasons-блок:** для пунктов 1/2/3 подключены фоновые изображения `bulb_01..03` в круглых bubble-элементах; размеры и отступы настроены индивидуально (в т.ч. мобильная последовательность «число → текст»); добавлена лёгкая «хаотичная» swim-анимация bubble-элементов.
 - [x] **Statement + Kontakt:** для блока `Ihre Website ist mehr als Information` подключён фон `public/images/bg_hell.png` с лёгким белым вертикальным градиентом; для `Kontaktieren Sie uns` подключён фон `public/images/bg_footer.png` с синим overlay `#013387`.
-- [x] **Links/Kontakt:** CTA-кнопка `Kontakt` ведёт на `https://www.pickablue.de/kontakt/`; footer-ссылки на `Impressum` и `Datenschutz` переведены на live-URLs pickablue (открытие в том же Fenster).
+- [x] **Links/Kontakt:** CTA-кнопка `Kontakt` ведёт на `https://www.pickablue.de/kontakt/`; footer-ссылки на `Impressum` и `Datenschutz & Nutzungsbedingungen` переведены на live-URLs pickablue (открытие в том же Fenster).
 - [x] GitHub: `origin` → `pickablue-flow`, ветка `main`.
 
 ## В работе

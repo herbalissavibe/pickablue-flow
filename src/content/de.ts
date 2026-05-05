@@ -73,8 +73,10 @@ export const site = {
   },
   footer: {
     links: [
-      { label: "Datenschutz", href: "https://www.pickablue.de/datenschutzerklaerung/" },
-      { label: "Nutzungsbedingungen", href: "#" },
+      {
+        label: "Datenschutz & Nutzungsbedingungen",
+        href: "https://www.pickablue.de/datenschutzerklaerung/",
+      },
       { label: "Impressum", href: "https://www.pickablue.de/impressum/" },
     ] as const,
   },
