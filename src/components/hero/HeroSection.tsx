@@ -5,7 +5,7 @@ import { Container } from "@/components/ui/Container";
 export function HeroSection() {
   return (
     <header className="relative isolate w-full">
-      <div className="relative flex h-[800px] min-h-[800px] max-h-[800px] flex-col overflow-hidden bg-[#002b49]">
+      <div className="relative flex h-[560px] min-h-[560px] max-h-[560px] flex-col overflow-hidden bg-[#002b49] md:h-[640px] md:min-h-[640px] md:max-h-[640px] lg:h-[800px] lg:min-h-[800px] lg:max-h-[800px]">
         <HeroVideo />
         <div
           className="absolute inset-0 bg-gradient-to-b from-[#001a33]/80 via-transparent to-[#001a33]/40"

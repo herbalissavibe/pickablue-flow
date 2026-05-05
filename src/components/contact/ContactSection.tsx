@@ -25,11 +25,20 @@ export function ContactSection() {
         }}
       />
       <Container className="relative">
-        <h2 id="contact-title" className="text-2xl font-bold sm:text-3xl lg:text-4xl">
+        <h2
+          id="contact-title"
+          className="max-w-[1400px] text-3xl font-light leading-tight text-white sm:text-4xl lg:text-5xl"
+        >
           {c.title}
         </h2>
         <div className="mt-8 flex flex-wrap items-center gap-6">
-          <Button variant="primary" className="bg-brand-primary hover:bg-brand-heading-soft">
+          <Button
+            variant="primary"
+            className="bg-brand-primary hover:bg-brand-heading-soft"
+            onClick={() => {
+              window.location.href = "https://www.pickablue.de/kontakt/";
+            }}
+          >
             {c.cta}
           </Button>
         </div>

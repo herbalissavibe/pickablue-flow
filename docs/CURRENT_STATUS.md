@@ -12,7 +12,7 @@
 
 - [x] `PROJECT_OVERVIEW.md`, `TECH_STACK.md`, `ARCHITECTURE.md`, `CURRENT_STATUS.md`.
 - [x] Сборка и dev: Vite 6, React 19, TS, Tailwind v4, alias `@/`, Motion, Radix Dialog.
-- [x] **Hero:** 800px, локальное видео `/public/video/Flow_Animation_Comp_sRGB_H.265_compressed.mp4`, белый логотип pickablue сверху слева и цветной FLOW-логотип по центру (SVG).
+- [x] **Hero:** локальное видео `/public/video/Flow_Animation_Comp_sRGB_H.265_compressed.mp4`, белый логотип pickablue сверху слева и цветной FLOW-логотип по центру (SVG); адаптивная высота уменьшена для mobile/tablet, desktop сохранён.
 - [x] **Hero → intro:** SVG-волна **внутри** того же flex-контейнера (`mt-auto`), прозрачная часть над кривой показывает **видео**; убрана отдельная тёмно-синяя полоса под волной; форма волны сделана более выраженной/«волнистой».
 - [x] **Типографика:** глобальный шрифт переключен с Roboto на Ubuntu (`index.html`, `src/styles/index.css`); базовый `html` размер увеличен до `20px`.
 - [x] **Сетка/ширина:** унифицирована максимальная ширина контента `1400px` через `Container`; секции и футер приведены к одной левой/правой кромке.
@@ -20,8 +20,9 @@
 - [x] Секция кейсов: превью-видео, градиент + play + текст, aspect 8/9, уменьшенный gap, модалка с motion и закрытием.
 - [x] **App Showcase:** фон заменён на локальное изображение `public/images/app-showcase-bg.png`; добавлен вертикальный градиент `#2183b8` сверху вниз (сильнее сверху) и дополнительный тёмный градиентный слой между фоном и SVG; секция переведена в одно-колоночный порядок (текст → изображение), SVG-мокап телефона (`public/images/app-showcase-phone.svg`) прижат к нижнему краю секции; для SVG добавлен плавный mouse-parallax (движение по X), фон оставлен статичным.
 - [x] **Секции/заголовки:** уменьшены лишние вертикальные разрывы перед `Content Journey` и `Reasons`; заголовки `Let it flow` и `Drei Gründe` приведены к стилю hero-headline (в `Let it flow` — белый).
-- [x] **Reasons-блок:** для пунктов 1/2/3 подключены фоновые изображения `bulb_01..03` в круглых bubble-элементах; размеры и отступы настроены индивидуально (в т.ч. мобильная последовательность «число → текст»).
+- [x] **Reasons-блок:** для пунктов 1/2/3 подключены фоновые изображения `bulb_01..03` в круглых bubble-элементах; размеры и отступы настроены индивидуально (в т.ч. мобильная последовательность «число → текст»); добавлена лёгкая «хаотичная» swim-анимация bubble-элементов.
 - [x] **Statement + Kontakt:** для блока `Ihre Website ist mehr als Information` подключён фон `public/images/bg_hell.png` с лёгким белым вертикальным градиентом; для `Kontaktieren Sie uns` подключён фон `public/images/bg_footer.png` с синим overlay `#013387`.
+- [x] **Links/Kontakt:** CTA-кнопка `Kontakt` ведёт на `https://www.pickablue.de/kontakt/`; footer-ссылки на `Impressum` и `Datenschutz` переведены на live-URLs pickablue (открытие в том же Fenster).
 - [x] GitHub: `origin` → `pickablue-flow`, ветка `main`.
 
 ## В работе
