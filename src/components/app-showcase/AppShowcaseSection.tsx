@@ -7,7 +7,7 @@ export function AppShowcaseSection() {
     <Section
       id="app"
       labelledBy="app-title"
-      className="relative min-h-dvh overflow-hidden bg-[#002b49] py-16 text-white sm:py-20 lg:py-24"
+      className="relative min-h-dvh overflow-hidden bg-[#002b49] pb-0 pt-16 text-white sm:pb-0 sm:pt-20 lg:pb-0 lg:pt-24"
       style={{
         backgroundImage: "url('/images/app-showcase-bg.png')",
         backgroundSize: "cover",
@@ -30,7 +30,15 @@ export function AppShowcaseSection() {
         }}
         aria-hidden
       />
-      <Container className="relative flex flex-col gap-10">
+      <div
+        className="pointer-events-none absolute inset-0"
+        style={{
+          backgroundImage:
+            "linear-gradient(to bottom, rgba(6, 18, 32, 0.5) 0%, rgba(6, 18, 32, 0.3) 45%, rgba(6, 18, 32, 0.12) 100%)",
+        }}
+        aria-hidden
+      />
+      <Container className="relative flex min-h-[calc(100dvh-4rem)] flex-col gap-10 sm:min-h-[calc(100dvh-5rem)] lg:min-h-[calc(100dvh-6rem)]">
         <div>
           <h2 id="app-title" className="text-2xl font-bold sm:text-3xl lg:text-4xl">
             {site.appShowcase.title}
@@ -39,11 +47,11 @@ export function AppShowcaseSection() {
             {site.appShowcase.body}
           </p>
         </div>
-        <div className="flex justify-center">
+        <div className="mt-auto flex justify-center">
           <img
             src="/images/app-showcase-phone.svg"
             alt="App-Ansicht auf Smartphone"
-            className="h-auto w-full max-w-[680px]"
+            className="block h-auto w-full max-w-[680px]"
           />
         </div>
       </Container>
