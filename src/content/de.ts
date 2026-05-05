@@ -120,8 +120,7 @@ export function caseVideoSources(caseItem: CaseStudy): VideoSource[] {
 
 export function heroVideoSources(): VideoSource[] {
   const local: VideoSource[] = [
-    { src: "/video/hero.webm", type: "video/webm" },
-    { src: "/video/hero.mp4", type: "video/mp4" },
+    { src: "/video/Flow_Animation_Comp_sRGB_H.265_compressed.mp4", type: "video/mp4" },
   ];
   if (import.meta.env.PROD) {
     return local;

@@ -5,7 +5,7 @@ import { Section } from "@/components/layout/Section";
 import { ProcessPillsAnimated } from "./ProcessPillsAnimated";
 
 const headlineClass =
-  "max-w-4xl text-3xl font-light leading-tight sm:text-4xl lg:text-5xl";
+  "max-w-[1400px] text-3xl font-light leading-tight sm:text-4xl lg:text-5xl";
 
 export function IntroContent() {
   return (
@@ -19,7 +19,7 @@ export function IntroContent() {
           <span className="block">{site.heroSub1}</span>
           <span className="block">{site.heroSub2}</span>
         </p>
-        <p className="mt-8 max-w-3xl text-base leading-relaxed text-text-body sm:text-lg">
+        <p className="mt-8 max-w-[1400px] text-base leading-relaxed text-text-body sm:text-lg">
           {site.introLead}
         </p>
         <ProcessPillsAnimated />

@@ -50,7 +50,7 @@ export function ProcessPillsAnimated() {
   return (
     <motion.div
       ref={ref}
-      className="mt-8 flex max-w-3xl flex-row flex-wrap items-start justify-start gap-0 sm:mt-10"
+      className="mt-8 flex max-w-[1400px] flex-row flex-wrap items-start justify-start gap-0 sm:mt-10"
       variants={c}
       initial={initial}
       animate={animate}
