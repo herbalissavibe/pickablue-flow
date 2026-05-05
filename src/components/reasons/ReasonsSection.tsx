@@ -5,11 +5,11 @@ import { ReasonRow } from "./ReasonRow";
 
 export function ReasonsSection() {
   return (
-    <Section id="reasons" labelledBy="reasons-title" className="bg-white">
+    <Section id="reasons" labelledBy="reasons-title" className="bg-white pt-0 sm:pt-0 lg:pt-0">
       <Container>
         <h2
           id="reasons-title"
-          className="text-2xl font-bold text-brand-heading-soft sm:text-3xl"
+          className="max-w-[1400px] text-3xl font-light leading-tight text-brand-primary sm:text-4xl lg:text-5xl"
         >
           {site.reasons.title}
         </h2>

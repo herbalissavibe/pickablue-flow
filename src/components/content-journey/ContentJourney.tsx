@@ -4,7 +4,7 @@ import { Section } from "@/components/layout/Section";
 
 export function ContentJourney() {
   return (
-    <Section id="journey" labelledBy="journey-title" className="bg-white">
+    <Section id="journey" labelledBy="journey-title" className="bg-white pt-0 sm:pt-0 lg:pt-0">
       <Container>
         <h2 id="journey-title" className="text-2xl font-bold text-brand-primary sm:text-3xl">
           {site.contentJourney.title}

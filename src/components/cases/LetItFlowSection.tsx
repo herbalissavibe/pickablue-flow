@@ -17,7 +17,10 @@ export function LetItFlowSection() {
         labelledBy="cases-heading"
       >
         <Container>
-          <h2 id="cases-heading" className="mb-10 text-2xl font-bold sm:text-3xl lg:text-4xl">
+          <h2
+            id="cases-heading"
+            className="mb-10 max-w-[1400px] text-3xl font-light leading-tight text-white sm:text-4xl lg:text-5xl"
+          >
             {site.letItFlow.title}
           </h2>
           <CaseStudyGrid
