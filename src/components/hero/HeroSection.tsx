@@ -20,12 +20,14 @@ export function HeroSection() {
             />
           </Container>
         </div>
-        <div className="pointer-events-none absolute inset-0 z-10 flex items-center justify-center">
-          <img
-            src="/images/flow-logo.svg"
-            alt="FLOW Logo"
-            className="h-auto w-[min(62vw,686px)] opacity-95"
-          />
+        <div className="pointer-events-none absolute inset-0 z-10 flex items-center">
+          <Container className="flex">
+            <img
+              src="/images/flow-logo.svg"
+              alt="FLOW Logo"
+              className="h-auto w-[min(62vw,686px)] self-start opacity-95"
+            />
+          </Container>
         </div>
         {/* Внизу hero: волна внутри того же блока — прозрачность над кривой = видео, без лишней тёмной полосы */}
         <HeroWaveDivider />
