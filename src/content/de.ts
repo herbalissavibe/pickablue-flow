@@ -9,14 +9,14 @@ const DEMO_WATER_DEEP_MP4 =
   "https://videos.pexels.com/video-files/2556894/2556894-hd_1920_1080_25fps.mp4";
 
 export const site = {
-  brand: "pickablue FLOW",
+  brand: "pickablue® FLOW",
   heroTitle: "Ihre Inhalte können mehr –\nwir machen sie für Gäste erlebbar",
   heroSub1: "Kuratiert statt generiert.",
   heroSub2: "Neue Formate, volle Kontrolle",
-  introLead: `Websites sind im Tourismus zentral, oft jedoch nur statische Informationsträger. Dabei bergen sie mehr Potenzial. pickablue FLOW baut auf dieser Grundlage auf: Es analysiert die Inhalte Ihrer Website, PDFs, Datenbanken oder externen Quellen und verwandelt sie automatisiert und kuratiert in interaktive Formate. So werden aus vorhandenen Informationen lebendige Erlebnisse – ohne zusätzlichen Content-Aufwand.`,
+  introLead: `Websites sind im Tourismus zentral, oft jedoch nur statische Informationsträger. Dabei bergen sie mehr Potenzial. pickablue® FLOW baut auf dieser Grundlage auf: Es analysiert die Inhalte Ihrer Website, PDFs, Datenbanken oder externen Quellen und verwandelt sie automatisiert und kuratiert in interaktive Formate. So werden aus vorhandenen Informationen lebendige Erlebnisse – ohne zusätzlichen Content-Aufwand.`,
   contentJourney: {
     title: "Vom Content zum Erlebnis",
-    body: `Der Weg von Inhalten zu Anwendungen ist einfach. Quellen wie URLs, Dokumente oder Datenbanken werden eingebunden, automatisch verarbeitet und in neue Formate übersetzt. In Minuten entstehen Hörspiele, Audioguides, Quizformate oder spielerische Interaktionen, die im pickablue System verfügbar sind.`,
+    body: `Der Weg von Inhalten zu Anwendungen ist einfach. Quellen wie URLs, Dokumente oder Datenbanken werden eingebunden, automatisch verarbeitet und in neue Formate übersetzt. In Minuten entstehen Hörspiele, Audioguides, Quizformate oder spielerische Interaktionen, die im pickablue® System verfügbar sind.`,
   },
   letItFlow: {
     title: "Let it FLOW – so einfach geht's:",
@@ -24,11 +24,11 @@ export const site = {
   },
   appShowcase: {
     title: "Direkt erlebbar – ohne App",
-    body: `Alle Inhalte integrieren sich nahtlos ins pickablue Ökosystem und sind sofort nutzbar. Gäste greifen über QR-Codes darauf zu und erleben die Inhalte direkt im mobilen Browser – ohne Download, ohne Hürde. Ein kurzer Scan wird zum unmittelbaren, digitalen Erlebnis vor Ort.`,
+    body: `Alle Inhalte integrieren sich nahtlos ins pickablue® Ökosystem und sind sofort nutzbar. Gäste greifen über QR-Codes darauf zu und erleben die Inhalte direkt im mobilen Browser – ohne Download, ohne Hürde. Ein kurzer Scan wird zum unmittelbaren, digitalen Erlebnis vor Ort.`,
   },
   value: {
     title: "Mehr Wirkung bei weniger Aufwand",
-    body: `pickablue FLOW bietet Mehrwert auf mehreren Ebenen: Inhalte gewinnen an Tiefe und Emotionalität, Gäste interagieren intensiver und bleiben länger. Der Bedarf, neue Inhalte aufwendig zu produzieren, entfällt, da bestehende Quellen intelligent weiterverwendet werden. Automatische Mehrsprachigkeit und vereinfachte Darstellung erreichen eine breitere Zielgruppe – ohne zusätzlichen redaktionellen Aufwand.`,
+    body: `pickablue® FLOW bietet Mehrwert auf mehreren Ebenen: Inhalte gewinnen an Tiefe und Emotionalität, Gäste interagieren intensiver und bleiben länger. Der Bedarf, neue Inhalte aufwendig zu produzieren, entfällt, da bestehende Quellen intelligent weiterverwendet werden. Automatische Mehrsprachigkeit und vereinfachte Darstellung erreichen eine breitere Zielgruppe – ohne zusätzlichen redaktionellen Aufwand.`,
   },
   reasons: {
     title: "Drei Gründe, die überzeugen",
@@ -41,31 +41,31 @@ export const site = {
       {
         number: 2,
         title: "Transparente Kostenstruktur",
-        body: "pickablue FLOW bietet klare und nachvollziehbare Nutzung. Sie behalten den Überblick über Ihren Verbrauch und planen Budgets verlässlich. Keine versteckten Kosten, sondern eine transparente Grundlage für den Einsatz.",
+        body: "pickablue® FLOW bietet klare und nachvollziehbare Nutzung. Sie behalten den Überblick über Ihren Verbrauch und planen Budgets verlässlich. Keine versteckten Kosten, sondern eine transparente Grundlage für den Einsatz.",
       },
       {
         number: 3,
         title: "Nahtlose Integration bestehender Systeme",
-        body: "pickablue FLOW arbeitet mit Ihren bestehenden Systemen. Websites, Broschüren, Datenbanken oder externe Plattformen werden nicht ersetzt, sondern intelligent eingebunden und zu einem konsistenten Erlebnis zusammengeführt.",
+        body: "pickablue® FLOW arbeitet mit Ihren bestehenden Systemen. Websites, Broschüren, Datenbanken oder externe Plattformen werden nicht ersetzt, sondern intelligent eingebunden und zu einem konsistenten Erlebnis zusammengeführt.",
       },
     ] satisfies ReasonBlock[],
   },
   audience: {
-    title: "Für wen pickablue FLOW geeignet ist",
+    title: "Für wen pickablue® FLOW geeignet ist",
     lead:
       "Die Lösung richtet sich an Organisationen, die Inhalte effizienter nutzen und erlebbar machen möchten – insbesondere im Tourismus, in Städten und Regionen sowie in kulturellen Einrichtungen.",
-    body: "Während viele KI-Anwendungen isolierte Inhalte erzeugen, verbindet pickablue FLOW bestehende Quellen mit direkter Ausspielung in ein funktionierendes Ökosystem. Das Ergebnis ist kein zusätzlicher Content-Baustein, sondern ein durchgängiges Erlebnis – integriert, kontrollierbar und sofort nutzbar.",
+    body: "Während viele KI-Anwendungen isolierte Inhalte erzeugen, verbindet pickablue® FLOW bestehende Quellen mit direkter Ausspielung in ein funktionierendes Ökosystem. Das Ergebnis ist kein zusätzlicher Content-Baustein, sondern ein durchgängiges Erlebnis – integriert, kontrollierbar und sofort nutzbar.",
     highlightPhrase:
       "im Tourismus, in Städten und Regionen sowie in kulturellen Einrichtungen",
   },
   statement: {
     line1: "Ihre Website ist mehr als Information.",
-    line2: "Mit pickablue FLOW wird sie zum Erlebnisraum.",
+    line2: "Mit pickablue® FLOW wird sie zum Erlebnisraum.",
   },
   contact: {
     title: "Kontaktieren Sie uns",
     cta: "Kontakt",
-    company: "pickablue GmbH",
+    company: "pickablue® GmbH",
     street: "Blumenstraße 2,",
     city: "65189 Wiesbaden",
     phoneLabel: "Telefon:",
@@ -122,7 +122,7 @@ export function caseVideoSources(caseItem: CaseStudy): VideoSource[] {
 
 export function heroVideoSources(): VideoSource[] {
   const local: VideoSource[] = [
-    { src: "/video/Flow_Animation_Comp_sRGB_H.265_compressed.mp4", type: "video/mp4" },
+    { src: "/video/Flow_Animation_Comp_slow_sRGB_H.265_compressed.mp4", type: "video/mp4" },
   ];
   if (import.meta.env.PROD) {
     return local;

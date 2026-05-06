@@ -1,4 +1,5 @@
 import { site } from "@/content/de";
+import { renderTrademark } from "@/lib/renderTrademark";
 import { Container } from "@/components/ui/Container";
 import { Section } from "@/components/layout/Section";
 
@@ -26,7 +27,7 @@ export function ClosingStatement() {
           {site.statement.line1}
         </p>
         <p className="mt-4 text-2xl font-semibold leading-snug text-text-body sm:text-3xl lg:text-4xl">
-          {site.statement.line2}
+          {renderTrademark(site.statement.line2)}
         </p>
       </Container>
     </Section>

@@ -1,4 +1,5 @@
 import { site } from "@/content/de";
+import { renderTrademark } from "@/lib/renderTrademark";
 import { Container } from "@/components/ui/Container";
 import { Section } from "@/components/layout/Section";
 
@@ -10,7 +11,7 @@ export function ContentJourney() {
           {site.contentJourney.title}
         </h2>
         <p className="mt-6 max-w-[1400px] text-base leading-relaxed text-text-body sm:text-lg">
-          {site.contentJourney.body}
+          {renderTrademark(site.contentJourney.body)}
         </p>
       </Container>
     </Section>

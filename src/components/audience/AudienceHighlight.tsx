@@ -1,4 +1,5 @@
 import { site } from "@/content/de";
+import { renderTrademark } from "@/lib/renderTrademark";
 import { Container } from "@/components/ui/Container";
 import { Section } from "@/components/layout/Section";
 
@@ -14,7 +15,7 @@ export function AudienceHighlight() {
     >
       <Container>
         <h2 id="audience-title" className="text-2xl font-bold sm:text-3xl lg:text-4xl">
-          {title}
+          {renderTrademark(title)}
         </h2>
         <p className="mt-6 max-w-[1400px] text-lg leading-relaxed text-white/95 sm:text-xl">
           {parts[0]}
@@ -22,7 +23,7 @@ export function AudienceHighlight() {
           {parts[1] ?? ""}
         </p>
         <p className="mt-6 max-w-[1400px] text-base leading-relaxed text-white/90 sm:text-lg">
-          {body}
+          {renderTrademark(body)}
         </p>
       </Container>
     </Section>

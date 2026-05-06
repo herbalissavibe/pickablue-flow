@@ -15,7 +15,7 @@ export function HeroSection() {
           <Container>
             <img
               src="/images/pickablue_rgb_neg.svg"
-              alt="pickablue Logo"
+              alt="pickablue® Logo"
               className="h-auto w-[min(42vw,220px)] self-start"
             />
           </Container>

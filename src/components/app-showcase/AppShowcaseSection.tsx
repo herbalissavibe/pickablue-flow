@@ -1,6 +1,7 @@
 import { useRef } from "react";
 import { motion, useMotionValue, useSpring } from "motion/react";
 import { site } from "@/content/de";
+import { renderTrademark } from "@/lib/renderTrademark";
 import { Container } from "@/components/ui/Container";
 import { Section } from "@/components/layout/Section";
 import { usePrefersReducedMotion } from "@/hooks/usePrefersReducedMotion";
@@ -77,7 +78,7 @@ export function AppShowcaseSection() {
             {site.appShowcase.title}
           </h2>
           <p className="mt-6 max-w-[1400px] text-base leading-relaxed text-white/95 sm:text-lg">
-            {site.appShowcase.body}
+            {renderTrademark(site.appShowcase.body)}
           </p>
         </div>
         <motion.div

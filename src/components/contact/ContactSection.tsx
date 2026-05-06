@@ -1,4 +1,5 @@
 import { site } from "@/content/de";
+import { renderTrademark } from "@/lib/renderTrademark";
 import { Button } from "@/components/ui/Button";
 import { Container } from "@/components/ui/Container";
 import { Section } from "@/components/layout/Section";
@@ -43,7 +44,7 @@ export function ContactSection() {
           </Button>
         </div>
         <address className="mt-12 not-italic text-white/90">
-          <p className="font-semibold text-white">{c.company}</p>
+          <p className="font-semibold text-white">{renderTrademark(c.company)}</p>
           <p className="mt-2">{c.street}</p>
           <p>{c.city}</p>
           <p className="mt-2">

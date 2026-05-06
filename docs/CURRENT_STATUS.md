@@ -12,7 +12,7 @@
 
 - [x] `PROJECT_OVERVIEW.md`, `TECH_STACK.md`, `ARCHITECTURE.md`, `CURRENT_STATUS.md`.
 - [x] Сборка и dev: Vite 6, React 19, TS, Tailwind v4, alias `@/`, Motion, Radix Dialog.
-- [x] **Hero:** локальное видео `/public/video/Flow_Animation_Comp_sRGB_H.265_compressed.mp4`, белый логотип pickablue сверху слева и цветной FLOW-логотип по центру (SVG); адаптивная высота уменьшена для mobile/tablet, desktop сохранён.
+- [x] **Hero:** локальное видео переключено на `/public/video/Flow_Animation_Comp_slow_sRGB_H.265_compressed.mp4`, белый логотип pickablue сверху слева и цветной FLOW-логотип по центру (SVG); адаптивная высота уменьшена для mobile/tablet, desktop сохранён.
 - [x] **Hero → intro:** SVG-волна **внутри** того же flex-контейнера (`mt-auto`), прозрачная часть над кривой показывает **видео**; убрана отдельная тёмно-синяя полоса под волной; форма волны сделана более выраженной/«волнистой».
 - [x] **Hero / FLOW-логотип:** цветной logo `flow-logo.svg` смещён влево и выровнен по левому краю контентного контейнера (единая левая кромка с остальными секциями).
 - [x] **Hero / Wave-divider:** форма нижней волны переработана итеративно по референсу (плавнее, шире и с акцентом на левый подъём); финальный контур даёт более чистый переход hero → белый контент.
@@ -25,6 +25,7 @@
 - [x] **Секции/заголовки:** уменьшены лишние вертикальные разрывы перед `Content Journey` и `Reasons`; заголовки `Let it flow` и `Drei Gründe` приведены к стилю hero-headline (в `Let it flow` — белый).
 - [x] **Headline-umbruch:** в intro-H1 добавлен принудительный перенос перед «wir machen sie für Gäste erlebbar».
 - [x] **FLOW-нейминг:** пользовательские текстовые вхождения `flow` унифицированы в `FLOW` (в контентных строках DE).
+- [x] **Trademark-типографика:** `pickablue®` унифицировано по текстовым секциям; `®` приведён к верхнему маленькому superscript-стилю (компактно и без переноса в `pickablue® FLOW`).
 - [x] **Cases-Sektion:** блок с видео-кейсами (`LetItFlowSection`) временно скрыт из `App.tsx` по текущему запросу.
 - [x] **Reasons-блок:** для пунктов 1/2/3 подключены фоновые изображения `bulb_01..03` в круглых bubble-элементах; размеры и отступы настроены индивидуально (в т.ч. мобильная последовательность «число → текст»); добавлена лёгкая «хаотичная» swim-анимация bubble-элементов.
 - [x] **Statement + Kontakt:** для блока `Ihre Website ist mehr als Information` подключён фон `public/images/bg_hell.png` с лёгким белым вертикальным градиентом; для `Kontaktieren Sie uns` подключён фон `public/images/bg_footer.png` с синим overlay `#013387`.
