@@ -2,7 +2,6 @@ import { PageShell } from "@/components/layout/PageShell";
 import { HeroSection } from "@/components/hero/HeroSection";
 import { IntroContent } from "@/components/intro/IntroContent";
 import { ContentJourney } from "@/components/content-journey/ContentJourney";
-import { LetItFlowSection } from "@/components/cases/LetItFlowSection";
 import { AppShowcaseSection } from "@/components/app-showcase/AppShowcaseSection";
 import { ValueProposition } from "@/components/value/ValueProposition";
 import { ReasonsSection } from "@/components/reasons/ReasonsSection";
@@ -17,7 +16,6 @@ export default function App() {
       <HeroSection />
       <IntroContent />
       <ContentJourney />
-      <LetItFlowSection />
       <AppShowcaseSection />
       <ValueProposition />
       <ReasonsSection />

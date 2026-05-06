@@ -34,7 +34,7 @@ export function AppShowcaseSection() {
       ref={sectionRef}
       id="app"
       labelledBy="app-title"
-      className="relative min-h-[56dvh] overflow-hidden bg-[#002b49] pb-0 pt-16 text-white sm:min-h-dvh sm:pb-0 sm:pt-20 lg:pb-0 lg:pt-24"
+      className="relative min-h-[48dvh] overflow-hidden bg-[#001a33] pb-0 pt-14 text-white sm:min-h-[72dvh] sm:pb-0 sm:pt-16 lg:min-h-[78dvh] lg:pb-0 lg:pt-20"
       onPointerMove={handlePointerMove}
       onPointerLeave={handlePointerLeave}
     >
@@ -59,7 +59,7 @@ export function AppShowcaseSection() {
         className="pointer-events-none absolute inset-0"
         style={{
           backgroundImage:
-            "linear-gradient(to bottom, rgb(33, 131, 184) 0%, rgba(33, 131, 184, 0.45) 55%, rgba(33, 131, 184, 0.2) 100%)",
+            "linear-gradient(to bottom, rgba(1, 51, 135, 0.88) 0%, rgba(1, 51, 135, 0.66) 55%, rgba(1, 51, 135, 0.44) 100%)",
         }}
         aria-hidden
       />
@@ -67,11 +67,11 @@ export function AppShowcaseSection() {
         className="pointer-events-none absolute inset-0"
         style={{
           backgroundImage:
-            "linear-gradient(to bottom, rgba(6, 18, 32, 0.5) 0%, rgba(6, 18, 32, 0.3) 45%, rgba(6, 18, 32, 0.12) 100%)",
+            "linear-gradient(to bottom, rgba(0, 22, 50, 0.66) 0%, rgba(0, 22, 50, 0.42) 45%, rgba(0, 22, 50, 0.24) 100%)",
         }}
         aria-hidden
       />
-      <Container className="relative flex min-h-[calc(100dvh-4rem)] flex-col gap-10 sm:min-h-[calc(100dvh-5rem)] lg:min-h-[calc(100dvh-6rem)]">
+      <Container className="relative flex min-h-[calc(78dvh-4rem)] flex-col gap-8 sm:min-h-[calc(72dvh-5rem)] lg:min-h-[calc(78dvh-6rem)]">
         <div>
           <h2 id="app-title" className="text-2xl font-bold sm:text-3xl lg:text-4xl">
             {site.appShowcase.title}

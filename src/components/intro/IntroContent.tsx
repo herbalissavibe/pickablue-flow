@@ -14,7 +14,9 @@ export function IntroContent() {
         <p id="intro-brand" className="text-xl font-semibold text-brand-primary sm:text-2xl">
           {site.brand}
         </p>
-        <h1 className={cn(headlineClass, "mt-4 text-brand-primary")}>{site.heroTitle}</h1>
+        <h1 className={cn(headlineClass, "mt-4 whitespace-pre-line text-brand-primary")}>
+          {site.heroTitle}
+        </h1>
         <p className={cn(headlineClass, "mt-6 text-neutral-600")}>
           <span className="block">{site.heroSub1}</span>
           <span className="block">{site.heroSub2}</span>
