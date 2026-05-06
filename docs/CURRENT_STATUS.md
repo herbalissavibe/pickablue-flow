@@ -27,11 +27,12 @@
 - [x] **Headline-umbruch:** в intro-H1 добавлен принудительный перенос перед «wir machen sie für Gäste erlebbar».
 - [x] **FLOW-нейминг:** пользовательские текстовые вхождения `flow` унифицированы в `FLOW` (в контентных строках DE).
 - [x] **Trademark-типографика:** `pickablue®` унифицировано по текстовым секциям; `®` приведён к верхнему маленькому superscript-стилю (компактно и без переноса в `pickablue® FLOW`).
+- [x] **Текстовые правки (DOCX 2026-05-06):** `jedoch` → `aber` (сразу после запятой), `pickablue®-System` с дефисом, `in das pickablue®-Ökosystem` вместо `ins`, формат телефона обновлён на `+49 611 4080919`.
 - [x] **Cases-Sektion:** блок с видео-кейсами (`LetItFlowSection`) временно скрыт из `App.tsx` по текущему запросу.
 - [x] **Reasons-блок:** для пунктов 1/2/3 подключены фоновые изображения `bulb_01..03` в круглых bubble-элементах; размеры и отступы настроены индивидуально (в т.ч. мобильная последовательность «число → текст»); добавлена лёгкая «хаотичная» swim-анимация bubble-элементов.
 - [x] **Statement + Kontakt:** для блока `Ihre Website ist mehr als Information` подключён фон `public/images/bg_hell.png` с лёгким белым вертикальным градиентом; для `Kontaktieren Sie uns` подключён фон `public/images/bg_footer.png` с синим overlay `#013387`.
 - [x] **Links/Kontakt:** CTA-кнопка `Kontakt` ведёт на `https://www.pickablue.de/kontakt/`; footer-ссылки на `Impressum` и `Datenschutz & Nutzungsbedingungen` переведены на live-URLs pickablue (открытие в том же Fenster).
-- [x] **Kontakt-Telefon:** номер обновлён на `0611-4080919`.
+- [x] **Kontakt-Telefon:** номер обновлён на `+49 611 4080919`.
 - [x] GitHub: `origin` → `pickablue-flow`, ветка `main`.
 
 ## В работе

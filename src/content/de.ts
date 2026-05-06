@@ -13,10 +13,10 @@ export const site = {
   heroTitle: "Ihre Inhalte können mehr –\nwir machen sie für Gäste erlebbar",
   heroSub1: "Kuratiert statt generiert.",
   heroSub2: "Neue Formate, volle Kontrolle",
-  introLead: `Websites sind im Tourismus zentral, oft jedoch nur statische Informationsträger. Dabei bergen sie mehr Potenzial. pickablue® FLOW baut auf dieser Grundlage auf: Es analysiert die Inhalte Ihrer Website, PDFs, Datenbanken oder externen Quellen und verwandelt sie automatisiert und kuratiert in interaktive Formate. So werden aus vorhandenen Informationen lebendige Erlebnisse – ohne zusätzlichen Content-Aufwand.`,
+  introLead: `Websites sind im Tourismus zentral, aber oft nur statische Informationsträger. Dabei bergen sie mehr Potenzial. pickablue® FLOW baut auf dieser Grundlage auf: Es analysiert die Inhalte Ihrer Website, PDFs, Datenbanken oder externen Quellen und verwandelt sie automatisiert und kuratiert in interaktive Formate. So werden aus vorhandenen Informationen lebendige Erlebnisse – ohne zusätzlichen Content-Aufwand.`,
   contentJourney: {
     title: "Vom Content zum Erlebnis",
-    body: `Der Weg von Inhalten zu Anwendungen ist einfach. Quellen wie URLs, Dokumente oder Datenbanken werden eingebunden, automatisch verarbeitet und in neue Formate übersetzt. In Minuten entstehen Hörspiele, Audioguides, Quizformate oder spielerische Interaktionen, die im pickablue® System verfügbar sind.`,
+    body: `Der Weg von Inhalten zu Anwendungen ist einfach. Quellen wie URLs, Dokumente oder Datenbanken werden eingebunden, automatisch verarbeitet und in neue Formate übersetzt. In Minuten entstehen Hörspiele, Audioguides, Quizformate oder spielerische Interaktionen, die im pickablue®-System verfügbar sind.`,
   },
   letItFlow: {
     title: "Let it FLOW – so einfach geht's:",
@@ -24,7 +24,7 @@ export const site = {
   },
   appShowcase: {
     title: "Direkt erlebbar – ohne App",
-    body: `Alle Inhalte integrieren sich nahtlos ins pickablue® Ökosystem und sind sofort nutzbar. Gäste greifen über QR-Codes darauf zu und erleben die Inhalte direkt im mobilen Browser – ohne Download, ohne Hürde. Ein kurzer Scan wird zum unmittelbaren, digitalen Erlebnis vor Ort.`,
+    body: `Alle Inhalte integrieren sich nahtlos in das pickablue®-Ökosystem und sind sofort nutzbar. Gäste greifen über QR-Codes darauf zu und erleben die Inhalte direkt im mobilen Browser – ohne Download, ohne Hürde. Ein kurzer Scan wird zum unmittelbaren, digitalen Erlebnis vor Ort.`,
   },
   value: {
     title: "Mehr Wirkung bei weniger Aufwand",
@@ -69,7 +69,7 @@ export const site = {
     street: "Blumenstraße 2,",
     city: "65189 Wiesbaden",
     phoneLabel: "Telefon:",
-    phone: "0611-4080919",
+    phone: "+49 611 4080919",
   },
   footer: {
     links: [
