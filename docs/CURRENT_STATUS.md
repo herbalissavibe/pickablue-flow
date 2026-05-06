@@ -13,6 +13,7 @@
 - [x] `PROJECT_OVERVIEW.md`, `TECH_STACK.md`, `ARCHITECTURE.md`, `CURRENT_STATUS.md`.
 - [x] Сборка и dev: Vite 6, React 19, TS, Tailwind v4, alias `@/`, Motion, Radix Dialog.
 - [x] **Hero:** локальное видео переключено на `/public/video/Flow_Animation_Comp_slow_sRGB_H.265_compressed.mp4`, белый логотип pickablue сверху слева и цветной FLOW-логотип по центру (SVG); адаптивная высота уменьшена для mobile/tablet, desktop сохранён.
+- [x] **Hero (mobile sizing):** высота hero на мобильных дополнительно снижена (до ~`404px`) по последнему раунду правок.
 - [x] **Hero → intro:** SVG-волна **внутри** того же flex-контейнера (`mt-auto`), прозрачная часть над кривой показывает **видео**; убрана отдельная тёмно-синяя полоса под волной; форма волны сделана более выраженной/«волнистой».
 - [x] **Hero / FLOW-логотип:** цветной logo `flow-logo.svg` смещён влево и выровнен по левому краю контентного контейнера (единая левая кромка с остальными секциями).
 - [x] **Hero / Wave-divider:** форма нижней волны переработана итеративно по референсу (плавнее, шире и с акцентом на левый подъём); финальный контур даёт более чистый переход hero → белый контент.
@@ -30,6 +31,7 @@
 - [x] **Reasons-блок:** для пунктов 1/2/3 подключены фоновые изображения `bulb_01..03` в круглых bubble-элементах; размеры и отступы настроены индивидуально (в т.ч. мобильная последовательность «число → текст»); добавлена лёгкая «хаотичная» swim-анимация bubble-элементов.
 - [x] **Statement + Kontakt:** для блока `Ihre Website ist mehr als Information` подключён фон `public/images/bg_hell.png` с лёгким белым вертикальным градиентом; для `Kontaktieren Sie uns` подключён фон `public/images/bg_footer.png` с синим overlay `#013387`.
 - [x] **Links/Kontakt:** CTA-кнопка `Kontakt` ведёт на `https://www.pickablue.de/kontakt/`; footer-ссылки на `Impressum` и `Datenschutz & Nutzungsbedingungen` переведены на live-URLs pickablue (открытие в том же Fenster).
+- [x] **Kontakt-Telefon:** номер обновлён на `0611-4080919`.
 - [x] GitHub: `origin` → `pickablue-flow`, ветка `main`.
 
 ## В работе

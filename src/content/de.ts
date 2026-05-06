@@ -69,7 +69,7 @@ export const site = {
     street: "Blumenstraße 2,",
     city: "65189 Wiesbaden",
     phoneLabel: "Telefon:",
-    phone: "0611 408090",
+    phone: "0611-4080919",
   },
   footer: {
     links: [
